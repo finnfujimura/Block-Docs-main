@@ -9,7 +9,7 @@ async function storeFile() {
     const Contract = await hardhat.ethers.getContractAt("CIDStorage", contractAddress, signer);
 
     // File to upload
-    const filePath = "/Users/finnfujimura/Downloads/r6_4.pdf"; // Replace with actual file path
+    const filePath = "/Users/finnfujimura/Downloads/w6_1.pdf"; // Replace with actual file path
     const fileName = path.basename(filePath); // Extract file name
     const fileType = path.extname(filePath).substring(1); // Extract file extension
 
